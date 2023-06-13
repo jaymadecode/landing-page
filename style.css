@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+/* Navbar stuff */
+nav li {
+display: inline;
+float: right;
+margin: 10px;
+margin-top: 27px;
+}
+
+nav h2 {
+float: left;
+margin: 25px;
+}
+
+nav ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b2f50;
+  width: 100%;
+}
+   a:link {color: white;}  
+   a:visited {color: #a27aff}  
+   a:hover {color: blue}  
+   a:active {color: purple}
+
+body {
+  margin: 0;
+}
+
+/*helps with the entire page's text color*/
+p {
+color: grey;
+}
+
+/*all for section one*/
+
+#sectionone {
+margin-top: 80px;
+padding: 45px;
+display: flex;
+justify-content: space-evenly;
+background-color: #2b2f50;
+width: inherit%;
+}
+
+#sectionone div {
+  padding: 10px;
+}
+
+#sectionone h1 {
+  text-align: left;
+}
+
+a.my-button{
+ background: linear-gradient(to right,#196BCA ,#6433E0);
+ background-color: #196BCA;
+ color: #fff;
+ font-family: Trebuchet MS;
+ font-size: 21px;
+ font-weight: 800;
+ font-style: italic;
+ text-decoration: none;
+ padding: 18px 43px;
+ border: 0px solid #000;
+ border-radius: 10px;
+ display: inline-block;
+}
+a.my-button:hover{
+ background: linear-gradient(to right,#5482d0 ,#7d5ee3);
+ background-color: #5482d0;
+}
+a.my-button:active{
+ transform: scale(0.95);
+}
+
+/* section two stuff*/
+
+#sectiontwo {
+margin-top: 80px;
+justify-content: center space-evenly;
+width: inherit%;
+
+}
+#sectiontwo div {
+  text-align: center;
+}
+#box {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #1299ed;
+  border-radius: 25px;
+}
+
+#bigbox {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
