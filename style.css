@@ -87,6 +87,7 @@ a.my-button:active{
 
 #sectiontwo {
 margin-top: 80px;
+padding-bottom: 50px;
 justify-content: center space-evenly;
 width: inherit%;
 
@@ -106,4 +107,58 @@ width: inherit%;
   display: flex;
   justify-content: space-evenly;
 }
+/* this is for the captions/subtext */
+#bigbox2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+#bigbox2 div {
+  width: 100px;
+  height: 100px;
+}
 
+#sectionthree {
+margin-top: 80px;
+padding-bottom: 50px;
+justify-content: center;
+width: inherit%;
+background-color: #eee; 
+}
+
+blockquote {
+    margin: 0;
+  float: center;
+}
+
+blockquote p {
+    padding: 15px;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+#footer {
+margin-top: 80px;
+padding-bottom: 50px;
+position: relative;
+width: inherit;
+}
+
+#footer div {
+  background-color: #509ef2;
+  border: 5px solid #509ef2;
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+}
